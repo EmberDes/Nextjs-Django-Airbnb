@@ -1,8 +1,9 @@
-import Image from "next/image";
 
+import Categories from "./components/Categories"
 export default function Home() {
   return (
-    <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <main className="max-w-[1500px] mx-auto px-6">
+        <Categories />
         
       </main>
       
